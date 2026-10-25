@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/RoomBooking.Api/RoomBooking.Api.csproj" />
+    <Project Path="src/RoomBooking.AppHost/RoomBooking.AppHost.csproj" />
+    <Project Path="src/RoomBooking.Domain/RoomBooking.Domain.csproj" />
+    <Project Path="src/RoomBooking.ServiceDefaults/RoomBooking.ServiceDefaults.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/RoomBooking.Api.Tests/RoomBooking.Api.Tests.csproj" />
+    <Project Path="tests/RoomBooking.Domain.Tests/RoomBooking.Domain.Tests.csproj" />
+  </Folder>
+</Solution>
