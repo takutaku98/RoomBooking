@@ -1,0 +1,23 @@
+{
+	"name": "RoomBooking",
+	"image": "mcr.microsoft.com/devcontainers/base:3-ubuntu26.04",
+	"features": {
+		"ghcr.io/devcontainers/features/dotnet:2": {
+			"version": "10.0"
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:4": {},
+		"ghcr.io/microsoft/aspire-devcontainer-feature/aspire:3": {}
+	},
+	"remoteEnv": {
+		"SSL_CERT_DIR": "/usr/lib/ssl/certs:/home/vscode/.aspnet/dev-certs/trust"
+	},
+	"postStartCommand": "aspire certs trust --non-interactive",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-dotnettools.csdevkit",
+				"microsoft-aspire.aspire-vscode"
+			]
+		}
+	}
+}
