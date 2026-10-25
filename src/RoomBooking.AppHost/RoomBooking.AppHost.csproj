@@ -1,6 +1,10 @@
 <Project Sdk="Aspire.AppHost.Sdk/13.6.4">
 
   <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.PostgreSQL" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\RoomBooking.Api\RoomBooking.Api.csproj" />
   </ItemGroup>
 
